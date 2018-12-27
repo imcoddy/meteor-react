@@ -1,13 +1,11 @@
 import React from 'react';
-import Hello from './Hello.jsx';
-import Info from './Info.jsx';
+import {DatePicker} from 'antd';
 
-const App = () => (
-  <div>
-    <h1>Welcome to Meteor!</h1>
-    <Hello />
-    <Info />
-  </div>
-);
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+
+const App = () => (<div>
+  <h1>Welcome to Meteor!</h1>
+  <DatePicker/>
+</div>);
 
 export default App;
