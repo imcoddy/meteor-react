@@ -1,7 +1,5 @@
 import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
-import Info from './Info.jsx';
-
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 const {
