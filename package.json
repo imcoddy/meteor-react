@@ -2,7 +2,6 @@
   "name": "meteor-react",
   "private": true,
   "scripts": {
-    "dev": "umi dev",
     "start": "meteor run",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
@@ -10,14 +9,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.1.5",
-    "antd": "^3.11.6",
-    "classnames": "^2.2.6",
-    "indexof": "0.0.1",
     "meteor-node-stubs": "^0.4.1",
-    "react": "^16.7.0",
-    "react-addons-pure-render-mixin": "^15.6.2",
-    "react-dom": "^16.7.0",
-    "react-mounter": "^1.2.0"
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
   },
   "meteor": {
     "mainModule": {
@@ -25,14 +19,5 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
-  },
-  "devDependencies": {
-    "eslint-config-umi": "^1.2.0",
-    "eslint-plugin-flowtype": "^3.2.0",
-    "prettier": "1.15.3",
-    "umi-build-dev": "^1.2.9",
-    "umi-plugin-pro-block": "^1.2.0",
-    "umi-plugin-react": "^1.2.4",
-    "umi-plugin-routes": "^1.0.1"
   }
 }
