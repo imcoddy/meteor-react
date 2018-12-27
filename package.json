@@ -30,7 +30,7 @@
     "eslint-config-umi": "^1.2.0",
     "eslint-plugin-flowtype": "^3.2.0",
     "prettier": "1.15.3",
-    "umi-build-dev": "^1.2.8",
+    "umi-build-dev": "^1.2.9",
     "umi-plugin-pro-block": "^1.2.0",
     "umi-plugin-react": "^1.2.4",
     "umi-plugin-routes": "^1.0.1"
